@@ -24,10 +24,13 @@ The Assessor will provide a security assessment as outlined in the attached docu
 
 {% block indem_and_liability %}{% endblock %}
 
-## Payment
 
 {% if payment.client_funded is not none %}
+
+## Payment
+
    {% block payment %}{% endblock %}
+
 {% endif %}
 
 ## Signatures
